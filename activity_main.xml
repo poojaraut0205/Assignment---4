@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="24dp"
+        android:background="#E3F2FD"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Hello! Click the buttons below."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_gravity="center"
+        android:layout_width="357dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Increment Counter"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_gravity="center"
+        android:layout_width="357dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Change Height"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_gravity="center"
+        android:layout_width="357dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Center Text"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+</LinearLayout>
